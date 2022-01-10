@@ -42,6 +42,7 @@
     "*.js": "eslint"
   },
   "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
     "moment": "^2.29.1"
   }
 }

@@ -1,17 +1,5 @@
 import * as moment from 'moment';
 
-/* function sayHello(name: string) {
-  return `Hello from ${name}`;
-} */
-
-/* function showHello(divName: string, name: string) {
-  const elt = document.getElementById(divName);
-  elt.innerText = sayHello(name);
-}
-showHello("greeting", "JavaScript"); */
-
-/* timer */
-
 const btnPlus: HTMLElement = document.getElementById('btn_plus');
 const btnMinus: HTMLElement = document.getElementById('btn_minus');
 const btnStart: HTMLElement = document.getElementById('btn_start');
@@ -74,9 +62,3 @@ function startTime() {
 btnStart.addEventListener('click', () => {
   startTime();
 });
-
-/**
-* This function converts number of seconds in to proper time (minutes:seconds).
-* @param seconds number of seconds
-* @returns string that contains minutes and seconds
-*/
