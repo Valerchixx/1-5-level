@@ -1,9 +1,10 @@
 {
-  "name": "proj",
+  "name": "typescript_project",
   "version": "1.0.0",
-  "description": "",
+  "description": "author",
   "main": "./dist/main.js",
   "scripts": {
+    "start": " start ./dist/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit": "lint-staged"
   },
