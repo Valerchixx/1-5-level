@@ -5675,15 +5675,6 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var moment = require("moment");
-/* function sayHello(name: string) {
-  return `Hello from ${name}`;
-} */
-/* function showHello(divName: string, name: string) {
-  const elt = document.getElementById(divName);
-  elt.innerText = sayHello(name);
-}
-showHello("greeting", "JavaScript"); */
-/* timer */
 var btnPlus = document.getElementById('btn_plus');
 var btnMinus = document.getElementById('btn_minus');
 var btnStart = document.getElementById('btn_start');
@@ -5736,11 +5727,6 @@ function startTime() {
 btnStart.addEventListener('click', function () {
     startTime();
 });
-/**
-* This function converts number of seconds in to proper time (minutes:seconds).
-* @param seconds number of seconds
-* @returns string that contains minutes and seconds
-*/
 
 },{"moment":1}]},{},[2])
 
